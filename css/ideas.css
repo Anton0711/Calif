@@ -1,0 +1,133 @@
+.ideas__content{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.ideas__img{
+display: flex;
+
+}
+.nav__see{
+    display: flex;
+    align-items: center;
+   margin-top: 74px;
+   margin-bottom: 24px;
+}
+.ideas__text{
+    padding: 0;
+    list-style: none;
+    margin: 0px 0px 128px 35px;
+}
+.ideas__list{
+    margin-top: 23px;
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 125%;
+    color: #000;
+}
+.ideas__description{
+    font-family: "Readex Pro";
+font-weight: 400;
+font-size: 13px;
+line-height: 129%;
+text-align: center;
+color: #000;
+margin: 9px 436px 56px 436px;
+}
+.ideas__title{
+    font-family: "Readex Pro";
+font-weight: 400;
+font-size: 42px;
+line-height: 125%;
+text-align: center;
+color: #000;
+margin:47px 0px 0px 0px;
+}
+.see__text{
+    font-family: "Inter";
+font-weight: 400;
+font-size: 24px;
+line-height: 120%;
+text-transform: capitalize;
+color: #000;
+}
+.ideas__text-none{
+    display: none;
+}
+@media(max-width:1243px){
+    .ideas__text{
+        display: none;
+    }
+    .ideas__text-none{
+        display: block;
+        padding: 0;
+        list-style: none;
+        margin-left: 35px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 23px;
+    }
+    .ideas__list{
+        margin: 0;
+    }
+    .ideas__description{
+        margin: 0;
+    }
+    .ideas__img{
+        margin-top: 15px;
+    }
+    .nav__see{
+       margin-top: 37px;
+       margin-bottom: 12px;
+    }
+}
+@media(max-width:946px){
+    .ideas__img img{
+        width: 400px;
+    }
+    .see__text{
+        font-size: 16px;
+    }
+    .nav__see img{
+        width: 20px;
+    }
+}
+@media(max-width:796px){
+    .ideas__img{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .ideas__text-none{
+        margin: 0;
+        margin-top: 15px;
+        gap: 10px;
+    }
+    .ideas__list{
+        font-size: 18px;
+        display: flex;
+        align-items: center;
+
+    }
+    .nav__see{
+        margin-top: 16px;
+    }
+}
+@media(max-width:535px){
+    .ideas__title{
+        font-size: 37px;
+    }
+    .ideas__img img{
+        width: 350px;
+    }
+    .ideas__list{
+        font-size:14px ;
+    }
+}
+@media(max-width:390px){
+    .ideas__img img{
+        width: 300px;
+    } 
+}

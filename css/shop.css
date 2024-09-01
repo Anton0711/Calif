@@ -1,0 +1,275 @@
+.shop__title {
+    font-family: "Readex Pro";
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 125%;
+    text-align: center;
+    color: #000;
+
+
+}
+
+.shop__description {
+    margin-top: 9px;
+    margin-bottom: 55px;
+    font-family: "Readex Pro";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 120%;
+    text-align: center;
+    color: #000;
+}
+
+.shop__content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 75px;
+}
+
+.shop__one {
+    width: 50%;
+    display: flex;
+    gap: 50px;
+    flex-direction: column;
+}
+
+.shop__two {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+.shop__choose {
+    display: flex;
+    gap: 16px;
+}
+
+.shop__phones {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.watch__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.shop__tablet {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.laptops__undertitle {
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 128%;
+    text-align: right;
+    color: #000;
+}
+
+.laptops__maintitle {
+    display: flex;
+    justify-content: flex-end;
+    font-family: "Readex Pro";
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 120%;
+    text-align: right;
+    color: #000;
+
+}
+
+.shop__undertitle {
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 128%;
+    text-align: center;
+    color: #000;
+
+}
+
+.shop__main__title {
+    font-family: "Readex Pro";
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 120%;
+    text-align: center;
+    color: #000;
+    display: flex;
+    justify-content: center;
+
+}
+
+.watch__undertitle {
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 128%;
+    text-align: right;
+    color: #000;
+}
+
+.watch__maintitle {
+    font-family: "Readex Pro";
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 120%;
+    text-align: right;
+    color: #000;
+
+}
+
+.shop__watch:hover {
+
+    background-color: red;
+    transform: scale(1.5);
+
+}
+
+.shop__watch:hover h3 {
+    color: yellow;
+}
+
+.shop__watch {
+    display: flex;
+    align-self: center;
+    gap: 46.25px;
+    transition: 1.5s;
+
+}
+
+.shop__laptops {
+    box-shadow: 0 4px 35px 0 rgba(0, 0, 0, 0.25);
+}
+
+.shop__watch {
+    box-shadow: 0 4px 35px 0 rgba(0, 0, 0, 0.25);
+}
+
+.shop__phones {
+    box-shadow: 0 4px 35px 0 rgba(0, 0, 0, 0.25);
+    width: 312px;
+    height: 792px;
+}
+
+.shop__tablet {
+    box-shadow: 0 4px 35px 0 rgba(0, 0, 0, 0.25);
+    width: 312px;
+    height: 792px;
+}
+
+@media(max-width:1235px) {
+    .shop__one {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        gap: 15px;
+    }
+
+    .shop__two {
+        display: flex;
+        justify-content: center;
+    }
+
+    .shop__choose {
+        display: flex;
+        flex-direction: column;
+    }
+    .shop__tablet {
+        box-shadow: 0 4px 35px 0 rgba(0, 0, 0, 0.25);
+        width: 312px;
+        height: 550px;
+    }
+
+    .shop__phones {
+        box-shadow: 0 4px 35px 0 rgba(0, 0, 0, 0.25);
+        width: 312px;
+        height: 550px;
+    }
+}
+
+@media(max-width:1084px) {
+    .shop__one {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .shop__choose {
+        display: flex;
+        align-items: center;
+    }
+
+    .shop__description {
+        margin-bottom: 20px;
+    }
+
+    .shop__tablet {
+        box-shadow: 0 4px 35px 0 rgba(0, 0, 0, 0.25);
+        width: 312px;
+        height: 550px;
+    }
+
+    .shop__phones {
+        box-shadow: 0 4px 35px 0 rgba(0, 0, 0, 0.25);
+        width: 312px;
+        height: 550px;
+    }
+}
+
+@media(max-width:680px) {
+    .shop__title {
+        font-size: 37px;
+    }
+    .shop__two{
+        display: flex;
+        flex-direction:column;
+    }
+    .laptops__maintitle{
+        font-size: 26px;
+    }
+    .watch__maintitle{
+        font-size: 26px;
+    }
+    .shop__main__title{
+        font-size: 26px;
+    }
+    
+}
+@media(max-width:650px){
+    .shop__laptops img{
+        width: 350px;
+    }
+    .shop__watch img{
+        width: 350px;
+    }
+    .shop__watch{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+    .shop__phones img{
+        width: 250px;
+    }
+    .shop__tablet img{
+        width: 250px;
+    }
+    .shop__tablet {
+        box-shadow: 0 4px 35px 0 rgba(0, 0, 0, 0.25);
+        width: 250px;
+        height: 420px;
+    }
+
+    .shop__phones {
+        box-shadow: 0 4px 35px 0 rgba(0, 0, 0, 0.25);
+        width: 250px;
+        height: 400px;
+    }
+}
